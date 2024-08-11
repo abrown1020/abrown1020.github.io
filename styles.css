@@ -1,3 +1,12 @@
+
+:root {
+    --user-name: "Andrew Brown";
+}
+
+.user-name::before {
+    content: var(--user-name);
+}
+
 * {
     margin: 0;
     padding: 0;
