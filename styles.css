@@ -1,11 +1,15 @@
 
 :root {
-    --user-name: "Andrew Brown";
+    --user-name: "Andrew Brown"; /* Replace 'Your Name' with your actual name */
+    --accent-color: #3498db; /* Define your accent color here */
 }
 
 .user-name::before {
     content: var(--user-name);
+    font-weight: 600;
+    color: var(--accent-color);
 }
+
 
 * {
     margin: 0;
